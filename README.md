@@ -1,7 +1,14 @@
 # DevelopingDataProducts_Project
 
-A simple shiny app for predicting and visulizating a child high with the parent hight. The predicting model bases on *galton* embeded data set.
+### Summary
+This simple shiny app enables to predict children height with selected parent's height. It builds a linear model with R's embedded Galton's height data for parents and children, and next uses it to predict children height's. The following code is used to built the model:
 
+`model <- lm(child ~ parent, data = galton`
+
+Galton's data, the linear model, selected parent's height (vertical line) and predicted (horizontal line) are visualized on the right diagram
+
+      
+### Run      
 To run this application:
 
 * download this repo
